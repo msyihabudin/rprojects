@@ -1,4 +1,4 @@
-filename <- "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/data.csv"
+filename <- "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/Proyek Berjamur/mushroom.csv"
 dataset <- read.csv(filename, header=TRUE)
 dataset <- data.frame(dataset)
 
@@ -23,8 +23,8 @@ for (var in 1:ncol(dataset)) {
   }
 }
 summary(dataset)
-write.csv(dataset, file = "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/mushroom_nonNA.csv")
-filename <- "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/mushroom_nonNA.csv"
+write.csv(dataset, file = "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/Proyek Berjamur/mushroom_nonNA.csv")
+filename <- "G:/Personal/_IPB/Semester4/KOM332 Data Mining/Project/Proyek Berjamur/mushroom_nonNA.csv"
 dataset <- read.csv(filename, header=TRUE)
 dataset1 <- data.frame(dataset)
 
@@ -75,3 +75,4 @@ names(k) <- colnames(boruta$ImpHistory)
 Labels <- sort(sapply(k,median))
 axis(side = 1,las=2,labels = names(Labels),
      at = 1:ncol(boruta$ImpHistory), cex.axis = 0.7)
+
