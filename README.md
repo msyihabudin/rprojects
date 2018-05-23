@@ -1,1 +1,3 @@
-# rprojects
+# Klasifikasi Dataset Mushroom yang Dapat Dikonsumsi dan Beracun Menggunakan Metode Decision Tree
+
+Penelitian ini bertujuan untuk menentukan kelas dan membandingkan akurasi antara dua package library berbasis decision tree pada dataset mushroom berdasarkan atribut-atribut yang tersedia. Kelas yang ditentukan yaitu mushroom yang bersifat edible (dapat dimakan) atau poisonous (beracun). Kelas ditentukan dengan membangun data latih dan data uji sesuai kriteria yang digunakan.
