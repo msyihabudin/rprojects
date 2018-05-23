@@ -1,0 +1,6 @@
+dengan nilai confidence paling rendah ...
+karna kita mau nyari rules yang berkaitan "orang itu selamat atau tidak di titanic itu?"
+
+- rhs = tujuan (survived=No/Yes)
+
+
